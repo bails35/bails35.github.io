@@ -1,0 +1,155 @@
+body {
+  background: #1f4254;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  color: #dddddd;
+  background-color: #3b6345;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+display: block;
+background-color: #181f3c;
+padding: 1px;
+margin-top: 50px;
+height: 30px;
+}
+
+h1 {
+  font-size: 65px;
+  margin: auto;
+  padding: 10px;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42341f;
+  border-top: 2px solid #102d1b;
+  border-bottom: 2px solid #181f3c;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+li a:hover {
+  background-color: #3b6345;
+}
+.content article {
+  background-color: #dddddd;
+  border: 5px solid #181f3c;
+  border-radius: 15px;
+  padding: 7px;
+  width: 1000px;
+  margin: 20px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+iframe {
+  display: block;
+  margin: auto;
+  border: solid black;
+}
+a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+#resume {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: solid black 5px;
+}
+.art {
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  border: solid black 5px;
+}
+button {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color:  #3b6345;
+  border: solid #181f3c 2px;
+  color: #dddddd;
+}
+button:hover {
+  background-color: #1f4254;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+    margin: auto;
+    padding: 10px;
+  }
+  .content article {
+    background-color: #dddddd;
+    border: 5px solid #181f3c;
+    border-radius: 15px;
+    padding: 7px;
+    width: 600px;
+    margin: 20px;
+  }
+  iframe {
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+    margin: auto;
+    padding: 10px;
+  }
+  li {
+    float: none;
+  }
+  .content article {
+    background-color: #dddddd;
+    border: 5px solid #181f3c;
+    border-radius: 15px;
+    padding: 7px;
+    width: 300px;
+    margin: 20px;
+  }
+  iframe {
+    width: auto;
+  }
+  #resume {
+    height: 300px;
+    width: 200px;
+  }
+}

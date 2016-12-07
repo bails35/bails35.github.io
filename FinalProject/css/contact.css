@@ -1,0 +1,101 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  background: #1f4254;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  color: #dddddd;
+  background-color: #3b6345;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+display: block;
+background-color: #181f3c;
+padding: 1px;
+margin-top: 50px;
+height: 30px;
+}
+
+h1 {
+  font-size: 65px;
+  margin: auto;
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42341f;
+  border-top: 2px solid #102d1b;
+  border-bottom: 2px solid #181f3c;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+li a:hover {
+  background-color: #3b6345;
+}
+.card {
+  background-color: #dddddd;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius:20px;
+  box-shadow: 5px 5px 10px;
+  text-align: center;
+  flex: 1;
+  max-height: 600px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+    margin: auto;
+    padding: 10px;
+  }
+
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  li {
+    float: none;
+  }
+}
