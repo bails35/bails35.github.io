@@ -1,0 +1,188 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  background: #1f4254;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  color: #dddddd;
+  background-color: #3b6345;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+.footer {
+display: block;
+background-color: #181f3c;
+padding: 1px;
+margin-top: 50px;
+height: 30px;
+width: 100%;
+}
+
+h1 {
+  font-size: 65px;
+  margin: auto;
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
+.ok {
+  text-indent: 25px;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42341f;
+  border-top: 2px solid #102d1b;
+  border-bottom: 2px solid #181f3c;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav li a:hover {
+  background-color: #3b6345;
+}
+.content article {
+  background-color: #dddddd;
+  border: 5px solid #181f3c;
+  border-radius: 15px;
+  padding: 10px;
+  width: 1000px;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar {
+ height: 300px;
+ width: 20%;
+ background-color: #dddddd;
+ border: 5px solid #181f3c;
+ border-radius: 15px;
+ padding: 7px;
+ margin: 0 auto;
+ margin-top: 20px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-size: 20px;
+}
+.archive {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.archive li a{
+  color: #181f3c;
+  text-decoration: none;
+}
+.archive li a:hover {
+  color: #3b6345;
+}
+iframe {
+  border: solid black 5px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+    margin: auto;
+    padding: 10px;
+  }
+  .sidebar {
+   height: auto;
+   width: 500px;
+   background-color: #dddddd;
+   border: 5px solid #181f3c;
+   border-radius: 15px;
+   padding: 7px;
+   margin: 0 auto;
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+  }
+  .content article {
+    background-color: #dddddd;
+    border: 5px solid #181f3c;
+    border-radius: 15px;
+    padding: 10px;
+    width: 500px;
+    margin: 20px;
+  }
+  iframe {
+    border: solid black 5px;
+    width: 450px;
+  }
+  .container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+    margin: auto;
+    padding: 10px;
+  }
+  .sidebar {
+   height: auto;
+   width: 300px;
+   background-color: #dddddd;
+   border: 5px solid #181f3c;
+   border-radius: 15px;
+   padding: 7px;
+   margin: 0 auto;
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+  }
+  .content article {
+    background-color: #dddddd;
+    border: 5px solid #181f3c;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+  }
+  iframe {
+    border: solid black 5px;
+    width: 250px;
+  }
+  .nav li {
+    float: none;
+  }
+  .container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
